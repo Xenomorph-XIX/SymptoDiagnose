@@ -10,7 +10,7 @@ import numpy as np
 import pickle as p
 import streamlit as st
 
-loaded_model = p.load(open("prediction_model.sav", "rb"))
+loaded_model = p.load(open("Hackathon/prediction_model.sav", "rb"))
 
 def diagnosis(input_data):
     
